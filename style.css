@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Set your desired background color */
+}
+
+header {
+  background-color: #fff; /* Set your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 49px; /* Adjust the max-width of your logo */
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333; /* Set your desired text color */
+}
+
+.login .login-btn {
+    padding: 10px 20px;
+    background-color: #fff; /* White background */
+    color: #007bff; /* Blue text color */
+    text-decoration: none;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px;
+  }
+  
+/* Existing CSS remains the same */
+
+.second-navbar {
+    background-color: rgba(47, 128, 237, 1);
+    width: 100%; /* Set the width to half of the parent */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .announcement {
+    color: #fff;
+    margin: 10px 0;
+  }
+  /* Existing CSS remains the same */
+
+  .course-details {
+    margin-left: 5%;
+    margin-right: 45%;
+  }
+  
+  .big-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  }
+  
+  .blue-text {
+    color: blue;
+  }
+  
+  .sub-heading {
+    color: grey;
+    margin-bottom: 20px;
+  }
+  
+  .logos {
+    display: flex;
+    margin-top: 102px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 26px;
+  }
+  
+  .logo {
+    flex-basis: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .grey-text {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .enrollment-box {
+    margin-right: 50px;
+    float: right;
+    width: 347px;
+    height: 457px;
+    background: transparent;
+    border: 3px solid #ffcd00;
+    border-radius: 17px;
+    transform: rotate(0deg);
+    position: relative;
+    top: -339px;
+
+  }
+  
+  .enrollment-content {
+    transform: rotate(0deg);
+    text-align: center;
+    padding-top: 70px;
+  }
+  
+  h2 {
+    font-style: italic;
+    color: black;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  button {
+    width: 75%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: rgba(153, 47, 237, 1);
+    color: rgba(47, 128, 237, 1);
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  
